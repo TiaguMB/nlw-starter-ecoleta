@@ -4,10 +4,14 @@ Ecoleta é um site onde ajudamos pessoas a encontrarem pontos de coleta de sua c
 
 ## Dias da semana
 - [x] Segunda
-- [ ] Terça
+- [x] Terça
 - [ ] Quarta
 - [ ] Quinta
 - [ ] Sexta
+
+## Design
+Link para o design feito no Figma 
+https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta
 
 ---
 
