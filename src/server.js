@@ -13,19 +13,20 @@ nunjucks.configure("src/views", {
   noCache: true
 })
 
-
 // configurar caminhos da minha aplicação
 // pagina inicial
 // req: Requisição
 // res: Resposta
 server.get("/", (req, res) => {
-  return res.render("index.html", {
-    title: "Um titúlo"
-  })
+  return res.render("index.html")
 })
 
 server.get("/create-point", (req, res) => {
   return res.render("create-point.html")
+})
+
+server.get("/search", (req, res) => {
+  return res.render("search-results.html")
 })
 
 // ligar o servidor

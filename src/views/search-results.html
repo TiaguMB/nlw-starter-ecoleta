@@ -1,34 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+{% extends "layout.html" %}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% set pageId = "page-search-results" %}
+
+{% block title %}
   <title>Resultado da pesquisa</title>
+{% endblock %}
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&family=Ubuntu:wght@700&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="/styles/main.css">
+{% block styles %}
   <link rel="stylesheet" href="/styles/search-results.css">
-  <link rel="stylesheet" href="/styles/responsive.css">
-</head>
+{% endblock %}
 
-<body>
-
-  <div id="page-search-results">
-    <header>
-      <img src="/assets/logo.svg" alt="Logomarca">
-      <a href="/">
-        <span></span>
-        Voltar para home
-      </a>
-    </header>
+{% block content %}  
+    {% include "partials/page-header.html" %}
 
     <main>
 
       <h4>
-        <strong>2 pontos</strong> encontrados
+        <strong>3 pontos</strong> encontrados
       </h4>
 
       <div class="cards">
@@ -52,11 +40,17 @@
             Nº 260
           </p>
         </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1589526174056-2d6960ead9a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Papersider">
+          <h1>Mercado do seu Zé</h1>
+          <h3>Óleo de Cozinha</h3>
+          <p>
+            Aparecida, São Paulo <br>
+            Santa Rita, Santa Rita <br>
+            Nº 482
+          </p>
+        </div>
       </div>
       
     </main>
-
-  </div>
-</body>
-
-</html>
+{% endblock %}
