@@ -7,7 +7,7 @@ Ecoleta é um site onde ajudamos pessoas a encontrarem pontos de coleta de sua c
 - [x] Terça
 - [x] Quarta
 - [x] Quinta
-- [ ] Sexta
+- [x] Sexta
 
 ## Design
 
